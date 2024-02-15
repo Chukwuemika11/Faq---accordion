@@ -24,7 +24,7 @@
 
 .container{
     width: 400px;
-    height: 400px;
+    height: 80vh;
     border-radius: 20px;
     background-color: white;
     margin:  40px 450px;
@@ -50,14 +50,15 @@
 
 .p-Size{
     font-size: 15px;
+    padding-top: 10px;
 }
 
 .message {
     display: none;
+   color:  hsl(292, 16%, 49%);
 }
 
-
-.show{
+.toggle-button {
     cursor: pointer;
 }
 
@@ -65,4 +66,8 @@
     display: block;
     font-size: 10px;
     padding:  0px 10px;
+}
+
+svg{
+    margin-top: 10px;
 }
