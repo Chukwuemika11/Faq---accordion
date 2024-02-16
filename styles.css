@@ -23,7 +23,7 @@
 }
 
 .container{
-    width: 400px;
+    width: 430px;
     height: 80vh;
     border-radius: 20px;
     background-color: white;
@@ -46,6 +46,7 @@
     display: flex;
     align-items: center;
     padding: 5px;
+    justify-content: space-between;
 }
 
 .p-Size{
@@ -66,6 +67,7 @@
     display: block;
     font-size: 10px;
     padding:  0px 10px;
+    font-size: 11px;
 }
 
 svg{
